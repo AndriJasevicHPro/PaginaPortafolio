@@ -1,0 +1,110 @@
+* {
+    font-family: 'Sen', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    background-color: rgb(7, 14, 12);
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #333;
+    margin: 70px 70px;
+    padding: 20px;
+    border: 14px solid rgb(18, 34, 30);
+    outline: 3px solid rgb(11, 68, 94);
+
+}
+
+
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+
+.form__input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid solid rgb(43, 177, 230);
+    background: rgb(19, 26, 3);
+    color: #fff;
+}
+
+
+.form__input:focus {
+    background: linear-gradient(to bottom, transparent, rgb(33, 59, 63));
+    outline: none;
+    border-bottom: 3px solid rgba(24, 199, 24, 0.842);
+}
+
+.form textarea {
+    min-height: 150px;
+}
+
+.form-img {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 500px;
+    order: 2;
+}
+
+.form-img div {
+    padding: 47px;
+}
+
+.img-container {
+    padding: 20px;
+    margin: auto;
+    
+}
+
+.img-container div {
+    background-color: rgb(0, 7, 5);
+    border-radius: 20%;
+    text-align: center;
+    padding: 30px;
+}
+
+.form-img img {
+    width: 100%;
+    margin: auto;
+}
+
+.form input[type="submit"] {
+    background-color: #094;
+    border-bottom: none;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    max-width: 400px;
+    
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgb(33, 109, 153);
+    border-bottom: none;
+    padding: 10px;
+    
+}
+
+.form input[type="submit"]:focus {
+    background: #094;
+    
+}
+
+.form input[type="submit"]:active {
+    background: linear-gradient(to bottom, #094, #072);
+    
+}
